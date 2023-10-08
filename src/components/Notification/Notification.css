@@ -1,0 +1,17 @@
+.notification__container {
+    position: fixed;
+    bottom: var(--spacing-large);
+    left: var(--spacing-large);
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-medium) var(--spacing-large);
+    border: 1px solid #000;
+    background-color: #fff;
+
+}
+
+.notification__close {
+    width: 30px;
+    height: 30px;
+    margin-left: var(--spacing-large);
+}
